@@ -1,0 +1,73 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .user-info {
+    font-size: 18px;
+  }
+  
+  .unread-count {
+    font-size: 16px;
+    margin: 20px;
+  }
+  
+  .inbox-container {
+    padding: 20px;
+  }
+  
+  .message {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .button {
+    background-color: #334233; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .center {
+    margin: auto;
+    width: 70%;
+    border: 3px solid rgb(73, 89, 73);
+    padding: 70px;
+    text-align: center;
+  }
+
+  .container {
+    height: 200px;
+    position: relative;
+    border: 3px solid green;
+  }
+  
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  h1 {
+    font-size: 30px;
+  }

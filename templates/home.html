@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mail Inbox App</title>
+  <link href="{{url_for('static', filename='style.css')}}" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="logo">Mail Inbox</div>
+    <div class="user-info">Henry Parker</div>                          
+  </header>
+
+  <main>
+    <h1><div class="center" id="message-count"></div></h1>
+    
+  </h1>
+  </main>
+
+    <div class="center">
+
+       <form action = "{{ url_for('inbox')}}">
+          <button class="button">
+            View message
+          </button>
+        </form>
+    </div>
+  </div>
+
+  <script src="{{url_for('static', filename='script.js')}}"></script>
+</body>
+</html>
